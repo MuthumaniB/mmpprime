@@ -17,5 +17,9 @@ public class MMP_004_SendMessages extends BaseClass {
 			helperobj.Login(pro.getProperty("patientUserName"),pro.getProperty("patientPassword"));
 			spage= new ScheduleAppointmentPage(driver);
 		}
+	public void Quit()
+	{
+		
+	}
 
 }
